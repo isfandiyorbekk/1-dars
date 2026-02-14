@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.grid-parent {
+  padding: 20px;
+  background-color: rgb(214, 214, 214);
+  height: 850px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  div {
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  }
+  div:nth-child(1) {
+    border-radius: 8px;
+    padding: 26px 32px 32px 32px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: rgba(115, 63, 200, 1);
+    .top {
+      display: flex;
+      padding: 0px;
+      padding-bottom: 18px;
+      .top-text {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 17px;
+        background-color: rgba(115, 63, 200, 1);
+        h3 {
+          font-size: 13px;
+          line-height: 13px;
+          font-weight: 500;
+          color: white;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 11px;
+          font-weight: 500;
+          line-height: 11px;
+          margin-top: 4px;
+        }
+      }
+    }
+    h2 {
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 13px;
+      color: rgba(207, 207, 207, 1);
+      line-height: 18px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+  }
+  div:nth-child(2) {
+    border-radius: 8px;
+    padding: 26px 32px 0px 32px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: rgba(72, 85, 106, 1);
+    .text-img {
+      padding: 0px;
+      display: flex;
+      background-color: rgba(72, 85, 106, 1);
+      .div-2-text {
+        padding: 0px;
+        margin: 17px;
+        h3 {
+          font-size: 13px;
+          line-height: 13px;
+          font-weight: 500;
+          color: white;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 11px;
+          font-weight: 500;
+          line-height: 11px;
+          margin-top: 4px;
+        }
+      }
+    }
+    h2 {
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 13px;
+      color: rgba(207, 207, 207, 1);
+      line-height: 18px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+  }
+  div:nth-child(3) {
+    border-radius: 8px;
+    padding: 26px 32px 32px 32px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: white;
+    .div3 {
+      padding: 0px;
+      display: flex;
+      background-color: white;
+      .div-3-text {
+        margin-left: 17px;
+        padding: 0px;
+        height: 31px;
+        background-color: white;
+        h3 {
+          font-size: 13px;
+          line-height: 13px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+          font-weight: 500;
+          margin-top: 0px;
+        }
+      }
+    }
+    h2 {
+      margin-top: 28px;
+      color: rgba(72, 85, 106, 1);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 100%;
+    }
+    p {
+      color: rgba(72, 85, 106, 1);
+      opacity: 70%;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 18px;
+      margin-top: 24px;
+    }
+  }
+  div:nth-child(4) {
+    padding: 26px 32px 32px 32px;
+    border-radius: 8px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: rgba(25, 32, 45, 1);
+    .div4 {
+      padding: 0px;
+      box-shadow: none;
+      display: flex;
+      background-color: rgba(25, 32, 45, 1);
+      .div-4-text {
+        margin-left: 17px;
+        padding: 0px;
+        background-color: rgba(25, 32, 45, 1);
+        h3 {
+          color: rgba(255, 255, 255, 1);
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+        }
+        p {
+          margin: 0px;
+          color: rgba(255, 255, 255, 0.5);
+          margin-top: 4px;
+          font-size: 11px;
+          font-weight: 500;
+          line-height: 11px;
+        }
+      }
+    }
+    h2 {
+      color: rgba(236, 242, 248, 1);
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 18px;
+    }
+    p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 1);
+      opacity: 70%;
+      line-height: 18px;
+      font-weight: 500;
+      margin-top: 24px;
+    }
+  }
+  div:nth-child(5) {
+    padding: 26px 32px 32px 32px;
+    border-radius: 8px;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    background-color: white;
+    .div5 {
+      background-color: white;
+      box-shadow: none;
+      display: flex;
+      padding: 0px;
+      .div5-text {
+        background-color: white;
+        padding: 0px;
+        margin-left: 18px;
+        h3 {
+          font-size: 13px;
+          line-height: 13px;
+          color: rgba(72, 85, 106, 1);
+          font-weight: 500;
+        }
+        p {
+          margin: 0px;
+          line-height: 11px;
+          font-size: 11px;
+        }
+      }
+    }
+    h2 {
+      color: rgba(72, 85, 106, 1);
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 18px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 18px;
+      color: rgba(72, 85, 106, 1);
+      font-weight: 500;
+      margin-top: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .grid-parent {
+    padding: 20px;
+    height: 2250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    div:nth-child(1) {
+      grid-row: 1/2;
+      grid-column: 1/6;
+    }
+    div:nth-child(2) {
+      grid-column: 1/6;
+      grid-row: 2/4;
+      background-color: rgba(72, 85, 106, 1);
+    }
+    div:nth-child(3) {
+      grid-column: 1/6;
+      grid-row: 4/6;
+      background-color: white;
+    }
+    div:nth-child(4) {
+      grid-column: 1/6;
+      grid-row: 6/9;
+      background-color: rgba(25, 32, 45, 1);
+    }
+    div:nth-child(5) {
+      grid-column: 1/6;
+      grid-row: 9/13;
+      background-color: white;
+    }
+  }
+}
